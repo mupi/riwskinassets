@@ -215,7 +215,12 @@
 				<div class="footerExtNav">
 					<ul id="footerLinks">#foreach ( $bn in $bottomNav )<li><span>${bn}</span></li>#end</ul>
 				</div>
+				<div class="logos_footer">
+					<div class="logo_riw"></div>
+					<div class="logo_unicamp"></div>
+				</div>
 				<div id="footerInfo">
+
 			#foreach ( $pb in $bottomNavPoweredBy )
 					<a href="${pb.poweredByUrl}" target="_blank">
 					 <img border="0" src="${pb.poweredByImage}" alt="${pb.poweredByAltText}" />
@@ -243,10 +248,6 @@
 					</div>
 #end
 #end
-				</div>
-				<div class="logos_footer">
-					<div class="logo_riw"></div>
-					<div class="logo_unicamp"></div>
 				</div>
 			</div>
 #end
